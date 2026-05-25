@@ -8,7 +8,7 @@ Software Fungsi Link
 AutoDock Vina Engine docking utama https://vina.scripps.eduMGLTools/AutoDockTools 
 Preparasi protein dan ligan https://ccsb.scripps.edu/mgltools
 Discovery Studio VisualizerVisualisasi hasil docking https://discover.3ds.comPyMOL 
-Visualisasi struktur 3Dhttps://pymol.org
+Visualisasi struktur 3D https://pymol.org
 
 MATERI_DOCKING/
 │
