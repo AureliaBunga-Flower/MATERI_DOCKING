@@ -1,13 +1,15 @@
 # MATERI_DOCKING
 Pengenalan docking dan tutorial moleculer docking antara EGFR (3W2S) dengan doxorubicin
 Repository ini berisi file-file pendukung tutorial praktis molecular docking protein-small molecule menggunakan AutoDock Vina. Materi ini dipersiapkan sebagai bahan pembelajaran bagi mahasiswa yang ingin memahami alur kerja (pipeline) molecular docking secara langsung.
+
 🛠️ Software yang Dibutuhkan
 Sebelum menggunakan file dalam repository ini, pastikan software berikut sudah terinstal:
 Software Fungsi Link 
 AutoDock Vina Engine docking utama https://vina.scripps.eduMGLTools/AutoDockTools 
 Preparasi protein dan ligan https://ccsb.scripps.edu/mgltools
-Discovery Studio VisualizerVisualisasi hasil docking https://discover.3ds.comPyMOL
+Discovery Studio VisualizerVisualisasi hasil docking https://discover.3ds.comPyMOL 
 Visualisasi struktur 3Dhttps://pymol.org
+
 MATERI_DOCKING/
 │
 ├── LIGAN_UJI.sdf              # Struktur ligan uji (format awal dari PubChem)
@@ -24,6 +26,7 @@ MATERI_DOCKING/
 │
 ├── hasil_2d.png               # Visualisasi interaksi 2D (ikatan H, hidrofobik)
 └── hasil_3d.png               # Visualisasi interaksi 3D
+
 1. Download struktur protein dari RCSB PDB
            ↓
 2. Preparasi protein (MGLTools)
