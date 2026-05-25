@@ -10,22 +10,33 @@ Preparasi protein dan ligan https://ccsb.scripps.edu/mgltools
 Discovery Studio VisualizerVisualisasi hasil docking https://discover.3ds.comPyMOL 
 Visualisasi struktur 3D https://pymol.org
 
+```
 MATERI_DOCKING/
+├── LIGAN_UJI.sdf          # Struktur ligan uji (format awal dari PubChem)
+├── LIGAN_UJI.pdb          # Ligan uji setelah konversi ke format PDB
+├── LIGAN_UJI.pdbqt        # Ligan uji siap docking (sudah preparasi MGLTools)
 │
-├── LIGAN_UJI.sdf              # Struktur ligan uji (format awal dari PubChem)
-├── LIGAN_UJI.pdb              # Ligan uji setelah konversi ke format PDB
-├── LIGAN_UJI.pdbqt            # Ligan uji siap docking (sudah preparasi MGLTools)
+├── NATIVE_LIGAN.pdb       # Ligan native dari struktur kristal PDB
+├── NATIVE_LIGAN.pdbqt     # Ligan native siap re-docking
 │
-├── NATIVE_LIGAN.pdb           # Ligan native dari struktur kristal PDB
-├── NATIVE_LIGAN.pdbqt         # Ligan native siap re-docking
+├── PROTEIN.pdb            # Struktur protein original dari RCSB PDB
+├── PROTEIN_CLEAN.pdb      # Protein setelah dibersihkan (hapus air, HETATM)
+├── PROTEIN_CLEAN.pdbqt    # Protein siap docking
 │
-├── CONFIG.txt                 # File konfigurasi AutoDock Vina (grid box + parameter)
+├── CONFIG.txt             # File konfigurasi AutoDock Vina
 │
-├── Docking_output.pdbqt       # Output hasil docking (semua mode konformasi)
-├── hasil_docking.pdb          # Kompleks protein-ligan hasil docking terbaik
+├── REdocking_output.pdbqt # Output hasil re-docking validasi
+├── Docking_output.pdbqt   # Output hasil docking ligan uji
+├── hasil_docking.pdb      # Kompleks protein-ligan hasil terbaik
 │
-├── hasil_2d.png               # Visualisasi interaksi 2D (ikatan H, hidrofobik)
-└── hasil_3d.png               # Visualisasi interaksi 3D
+├── hasil_2d.png           # Visualisasi interaksi 2D
+├── hasil_3d.png           # Visualisasi interaksi 3D
+├── Nilai RMSD Re docking.jpg  # Dokumentasi nilai RMSD validasi
+│
+├── autodock4.exe          # AutoDock engine
+├── autogrid4.exe          # AutoGrid engine
+└── PanduanMolDock_EGFR_Doxoru...  # Panduan tutorial
+```
 
 1. Download struktur protein dari RCSB PDB
            ↓
