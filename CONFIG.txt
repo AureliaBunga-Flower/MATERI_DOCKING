@@ -1,0 +1,17 @@
+receptor = PROTEIN_CLEAN.pdbqt
+ligand = LIGAN_UJI.pdbqt
+
+center_x = 4.316
+center_y = 1.496
+center_z = 10.744
+
+size_x = 40
+size_y = 40
+size_z = 40
+
+exhaustiveness = 32
+num_modes = 10
+
+verbosity = 2
+
+out = Docking_output.pdbqt
